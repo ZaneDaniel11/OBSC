@@ -23,7 +23,4 @@ namespace OBSC.Controllers
         {
             var main = _context.MainTbs.ToList();
             return View(main);
-        }
-
-    }
-}
+  
