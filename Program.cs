@@ -1,8 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using OBSC.Entities;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddDbContext<ObsDbContext>(options =>
+ options.UseMySql("server=localhost;database=obs_db;user=root", Microsoft.EntityFrameworkCore.ServerVersion.Parse("10.4.28-mariadb"))
+);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
