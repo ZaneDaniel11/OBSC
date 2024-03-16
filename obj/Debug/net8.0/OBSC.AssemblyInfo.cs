@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OBSC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb159768114f81235891f954187b2bd2b1c9894a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e436bf2bffaa9c8833d3fab091ea1417b5cfc9f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("OBSC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OBSC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
