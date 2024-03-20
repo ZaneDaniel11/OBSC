@@ -19,11 +19,6 @@ namespace OBSC.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
-        {
-            var main = _context.MainTbs.ToList();
-            return View(main);
-        }
-
+        
     }
 }
